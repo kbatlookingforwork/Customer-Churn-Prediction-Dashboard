@@ -25,7 +25,18 @@ with col1:
     st.image("assets/businessman-working-on-laptop.png", width=150)
 with col2:
     st.title("Customer Churn Prediction Dashboard")
+    st.markdown("""
+    <div style="display: flex; align-items: center; gap: 10px; margin-top: 20px;">
+        <p style="font-weight: bold; color: green;">Created by:</p>
+        <a href="https://www.linkedin.com/in/danyyudha" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+                 style="width: 20px; height: 20px;">
+        </a>
+        <p><b>Dany Yudha Putra Haque</b></p>
+    </div>
+""", unsafe_allow_html=True)
     st.markdown("### Analyze, Predict, and Reduce Customer Churn")
+
 
 st.markdown("""
 This application helps you predict customer churn using machine learning. 
@@ -475,4 +486,4 @@ elif page == "Customer Risk Segmentation":
 
 # Footer
 st.markdown("---")
-st.markdown("© 2023 Customer Churn Prediction Dashboard")
+st.markdown("© 2025 KBATLOOKINGFORWORK | Customer Churn Prediction Dashboard")
